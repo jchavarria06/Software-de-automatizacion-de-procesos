@@ -1,0 +1,242 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoftColitasModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="tbAdoptante">
+    <Key>
+      <PropertyRef Name="IDAdoptante" />
+      <PropertyRef Name="Cedula" />
+    </Key>
+    <Property Name="IDAdoptante" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Cedula" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="NombreCompleto" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Telefono" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="50" />
+    <Property Name="Direccion" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="EstadoCalificacion" Type="varchar" MaxLength="12" Nullable="false" />
+    <Property Name="IDUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbAnimal">
+    <Key>
+      <PropertyRef Name="CodigoAnimal" />
+    </Key>
+    <Property Name="CodigoAnimal" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Imagen" Type="image" Nullable="false" />
+    <Property Name="Tamano" Type="varchar" MaxLength="8" Nullable="false" />
+    <Property Name="EdadAprox" Type="varchar" MaxLength="5" />
+    <Property Name="PesoAprox" Type="varchar" MaxLength="5" />
+    <Property Name="Color" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="Estado" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Descripcion" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Especie" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="FechaIngreso" Type="date" Nullable="false" />
+    <Property Name="IDusuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbArchivo">
+    <Key>
+      <PropertyRef Name="IDArchivo" />
+    </Key>
+    <Property Name="IDArchivo" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="nombre" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="archivo" Type="image" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbDonacion">
+    <Key>
+      <PropertyRef Name="IDDonacion" />
+    </Key>
+    <Property Name="IDDonacion" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Monto" Type="decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="Fecha" Type="date" Nullable="false" />
+    <Property Name="Tipo" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="varchar" MaxLength="15" />
+    <Property Name="IDUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbExpedienteAnimal">
+    <Key>
+      <PropertyRef Name="IDExpediente" />
+    </Key>
+    <Property Name="IDExpediente" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Peso" Type="varchar" MaxLength="5" Nullable="false" />
+    <Property Name="FechaAtencion" Type="date" Nullable="false" />
+    <Property Name="ProcedimientosRealizados" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="Resumen" Type="varchar" MaxLength="1500" Nullable="false" />
+    <Property Name="Vacuna" Type="varchar" MaxLength="2" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="varchar" MaxLength="15" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbFotosAnimales">
+    <Key>
+      <PropertyRef Name="IDFoto" />
+      <PropertyRef Name="IDRescate" />
+    </Key>
+    <Property Name="IDFoto" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="IDRescate" Type="int" Nullable="false" />
+    <Property Name="Foto" Type="image" Nullable="false" />
+    <Property Name="NombreImg" Type="varchar" MaxLength="500" />
+  </EntityType>
+  <EntityType Name="tbRescate">
+    <Key>
+      <PropertyRef Name="IDRescate" />
+    </Key>
+    <Property Name="IDRescate" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="LugarRescate" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="FechaRescate" Type="date" Nullable="false" />
+    <Property Name="EspecieAnimal" Type="varchar" MaxLength="30" Nullable="false" />
+    <Property Name="DescripcionAnimal" Type="varchar" MaxLength="150" Nullable="false" />
+    <Property Name="NombreQuienReporta" Type="varchar" MaxLength="50" />
+    <Property Name="IDUsuario" Type="int" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbUsuario">
+    <Key>
+      <PropertyRef Name="IDUsuario" />
+    </Key>
+    <Property Name="IDUsuario" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="NombreCompleto" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Username" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Correo" Type="varchar" MaxLength="100" Nullable="false" />
+    <Property Name="Cedula" Type="varchar" MaxLength="15" Nullable="false" />
+    <Property Name="Pass" Type="varchar" MaxLength="20" Nullable="false" />
+  </EntityType>
+  <Association Name="FK__tbAdoptan__Codig__48CFD27E">
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="1" />
+    <End Role="tbAdoptante" Type="Self.tbAdoptante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Principal>
+      <Dependent Role="tbAdoptante">
+        <PropertyRef Name="CodigoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbAdoptan__IDUsu__46E78A0C">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbAdoptante" Type="Self.tbAdoptante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbAdoptante">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbAnimal__IDusua__47DBAE45">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbAnimal">
+        <PropertyRef Name="IDusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbDonacio__Codig__4AB81AF0">
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="0..1" />
+    <End Role="tbDonacion" Type="Self.tbDonacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Principal>
+      <Dependent Role="tbDonacion">
+        <PropertyRef Name="CodigoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbDonacio__IDUsu__44FF419A">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbDonacion" Type="Self.tbDonacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbDonacion">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbExpedie__Codig__49C3F6B7">
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="1" />
+    <End Role="tbExpedienteAnimal" Type="Self.tbExpedienteAnimal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Principal>
+      <Dependent Role="tbExpedienteAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbRescate__IDUsu__45F365D3">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbRescate" Type="Self.tbRescate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbRescate">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Function Name="SP_CAMBIO_ESTADO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CODANIMAL" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_LLENAR_GRID" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_LLENAR_GRID_GENERAL" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_LLENAR_GRID_POR_CED" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="CED" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_LLENAR_GRID_POR_COD" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="COD" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_LLENAR_GRID_POR_ESPECIE" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ESPECIE" Type="varchar" Mode="In" />
+  </Function>
+  <Function Name="SP_LLENAR_GRID_POR_FECHA" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_LLENAR_GRID_USUARIOS" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo" />
+  <Function Name="SP_MANT_ARCHIVO" Aggregate="false" BuiltIn="false" NiladicFunction="false" IsComposable="false" ParameterTypeSemantics="AllowImplicitConversion" Schema="dbo">
+    <Parameter Name="ID" Type="int" Mode="In" />
+    <Parameter Name="NOMBRE" Type="varchar" Mode="In" />
+    <Parameter Name="ARCHIVO" Type="image" Mode="In" />
+  </Function>
+  <EntityContainer Name="SoftColitasModelStoreContainer">
+    <EntitySet Name="tbAdoptante" EntityType="Self.tbAdoptante" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbAnimal" EntityType="Self.tbAnimal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbArchivo" EntityType="Self.tbArchivo" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbDonacion" EntityType="Self.tbDonacion" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbExpedienteAnimal" EntityType="Self.tbExpedienteAnimal" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbFotosAnimales" EntityType="Self.tbFotosAnimales" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbRescate" EntityType="Self.tbRescate" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="tbUsuario" EntityType="Self.tbUsuario" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK__tbAdoptan__Codig__48CFD27E" Association="Self.FK__tbAdoptan__Codig__48CFD27E">
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+      <End Role="tbAdoptante" EntitySet="tbAdoptante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbAdoptan__IDUsu__46E78A0C" Association="Self.FK__tbAdoptan__IDUsu__46E78A0C">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbAdoptante" EntitySet="tbAdoptante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbAnimal__IDusua__47DBAE45" Association="Self.FK__tbAnimal__IDusua__47DBAE45">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbDonacio__Codig__4AB81AF0" Association="Self.FK__tbDonacio__Codig__4AB81AF0">
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+      <End Role="tbDonacion" EntitySet="tbDonacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbDonacio__IDUsu__44FF419A" Association="Self.FK__tbDonacio__IDUsu__44FF419A">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbDonacion" EntitySet="tbDonacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbExpedie__Codig__49C3F6B7" Association="Self.FK__tbExpedie__Codig__49C3F6B7">
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+      <End Role="tbExpedienteAnimal" EntitySet="tbExpedienteAnimal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbRescate__IDUsu__45F365D3" Association="Self.FK__tbRescate__IDUsu__45F365D3">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbRescate" EntitySet="tbRescate" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

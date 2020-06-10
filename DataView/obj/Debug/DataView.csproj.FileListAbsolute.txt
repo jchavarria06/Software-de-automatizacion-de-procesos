@@ -1,0 +1,318 @@
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataView.exe.config
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataView.application
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataView.exe
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataView.pdb
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataModel.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataModel.pdb
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.CoreCompileInputs.cache
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.application
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.exe
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.exe
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataView.exe.config
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataView.application
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataView.exe
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataView.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.application
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataAccess.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataAccess.pdb
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\DataModel.dll.config
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.xml
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.exe.config
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.application
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.exe
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.pdb
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataAccess.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataModel.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataAccess.pdb
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataModel.pdb
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataModel.dll.config
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.xml
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.CoreCompileInputs.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.application
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.exe
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.exe.config
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.application
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.exe
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataView.pdb
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.application
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.exe
+C:\Users\josue\Desktop\SoftColitas con principal nueva\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmLogin.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.csproj.CoreCompileInputs.cache
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataView.exe.config
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataView.application
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataView.exe
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataView.pdb
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataAccess.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataModel.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\EntityFramework.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataAccess.pdb
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataModel.pdb
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\DataModel.dll.config
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\EntityFramework.xml
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.application
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.exe
+C:\Users\josue\source\repos\SoftColitas\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataView.exe.config
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataView.application
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataView.exe
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataView.pdb
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmLogin.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.application
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.exe
+C:\Users\josue\Desktop\SoftColitas\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.exe.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.application
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.exe
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataLogic.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmLogin.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.application
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.exe
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.exe.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.application
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.exe
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataView.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataLogic.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\bin\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\Interop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\AxInterop.AcroPDFLib.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csproj.ResolveComReference.cache
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaAdoptantes.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmConsultaUsuarios.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmDonaciones.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmEnvioCorreo.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmExpedienteMedico.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmInformacion.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmLogin.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmPrincipal.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAdoptantes.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmRegistroAnimal.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmReportes.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmRescates.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.FrmUsuarios.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.Properties.Resources.resources
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csproj.GenerateResource.cache
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.exe.manifest
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.application
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.exe
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataView\obj\Debug\DataView.pdb

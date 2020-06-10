@@ -1,0 +1,84 @@
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\jchav\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\josue\source\repos\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\source\repos\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josue\source\repos\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\josue\source\repos\SoftColitas\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\josue\source\repos\SoftColitas\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataAccess\obj\Debug\DataAccess.pdb

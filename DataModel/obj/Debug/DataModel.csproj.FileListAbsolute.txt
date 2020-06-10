@@ -1,0 +1,76 @@
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\DataModel.dll
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\DataModel.pdb
+C:\Users\jchav\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\jchav\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.dll
+C:\Users\jchav\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\obj\Debug\DataModel.dll
+C:\Users\josue\Desktop\Backups softcolitas\SoftColitas interfaz\DataModel\obj\Debug\DataModel.pdb
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\jchav\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jchav\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\DataModel.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\DataModel.pdb
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\obj\Debug\DataModel.dll
+C:\Users\jchav\Desktop\SoftColitas con principal nueva\DataModel\obj\Debug\DataModel.pdb
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\DataModel.dll
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\DataModel.pdb
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\josue\source\repos\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\source\repos\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\josue\source\repos\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\josue\source\repos\SoftColitas\DataModel\obj\Debug\DataModel.dll
+C:\Users\josue\source\repos\SoftColitas\DataModel\obj\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\DataModel\obj\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\obj\Debug\DataModel.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataModel\obj\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.xml
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\obj\Debug\DataModel.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\obj\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataModel\obj\Debug\DataModel.pdb

@@ -1,0 +1,47 @@
+# Archivos basura
+* .DS_Store
+[ Tt ] humbs.db
+
+# Visual Studio Files
+[ Oo ] bj
+[ Bb ] en
+[ Dd ] ebug
+[ Bb ] uild /
+* .user
+* .suo
+* .exe
+* .pdb
+* .aps
+* _i.c
+* _p.c
+* .ncb
+* .tlb
+* .tlh
+* . [ Cc ] dolor
+* .bak
+* .ncb
+* .ilk
+* .log
+* .lib
+* .sbr
+* .sdf
+ipch /
+* .dbmdl
+* .csproj.user
+* .cache
+* .swp
+* .vspscc
+* .vssscc
+* .bak. * *
+* .bak
+
+# Herramientas
+_ReSharper. * *
+_ReSharper * /
+* .resharper
+* .resharper.user
+[ Nn ] [ Dd ] epend [ Oo ] ut * /
+Ankh.NoLoad
+
+# Otro
+.svn

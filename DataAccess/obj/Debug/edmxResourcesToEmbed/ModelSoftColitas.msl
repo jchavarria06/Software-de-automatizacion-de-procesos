@@ -1,0 +1,200 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SoftColitasModelStoreContainer" CdmEntityContainer="SoftColitas">
+    <EntitySetMapping Name="tbAdoptante">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbAdoptante">
+        <MappingFragment StoreEntitySet="tbAdoptante">
+          <ScalarProperty Name="IDAdoptante" ColumnName="IDAdoptante" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Telefono" ColumnName="Telefono" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Direccion" ColumnName="Direccion" />
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="EstadoCalificacion" ColumnName="EstadoCalificacion" />
+          <ScalarProperty Name="IDUsuario" ColumnName="IDUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbAnimal">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbAnimal">
+        <MappingFragment StoreEntitySet="tbAnimal">
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="Imagen" ColumnName="Imagen" />
+          <ScalarProperty Name="Tamano" ColumnName="Tamano" />
+          <ScalarProperty Name="EdadAprox" ColumnName="EdadAprox" />
+          <ScalarProperty Name="PesoAprox" ColumnName="PesoAprox" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Descripcion" ColumnName="Descripcion" />
+          <ScalarProperty Name="Especie" ColumnName="Especie" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+          <ScalarProperty Name="IDusuario" ColumnName="IDusuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbArchivo">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbArchivo">
+        <MappingFragment StoreEntitySet="tbArchivo">
+          <ScalarProperty Name="IDArchivo" ColumnName="IDArchivo" />
+          <ScalarProperty Name="nombre" ColumnName="nombre" />
+          <ScalarProperty Name="archivo" ColumnName="archivo" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbDonacion">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbDonacion">
+        <MappingFragment StoreEntitySet="tbDonacion">
+          <ScalarProperty Name="IDDonacion" ColumnName="IDDonacion" />
+          <ScalarProperty Name="Monto" ColumnName="Monto" />
+          <ScalarProperty Name="Fecha" ColumnName="Fecha" />
+          <ScalarProperty Name="Tipo" ColumnName="Tipo" />
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="IDUsuario" ColumnName="IDUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbExpedienteAnimal">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbExpedienteAnimal">
+        <MappingFragment StoreEntitySet="tbExpedienteAnimal">
+          <ScalarProperty Name="IDExpediente" ColumnName="IDExpediente" />
+          <ScalarProperty Name="Peso" ColumnName="Peso" />
+          <ScalarProperty Name="FechaAtencion" ColumnName="FechaAtencion" />
+          <ScalarProperty Name="ProcedimientosRealizados" ColumnName="ProcedimientosRealizados" />
+          <ScalarProperty Name="Resumen" ColumnName="Resumen" />
+          <ScalarProperty Name="Vacuna" ColumnName="Vacuna" />
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbFotosAnimales">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbFotosAnimales">
+        <MappingFragment StoreEntitySet="tbFotosAnimales">
+          <ScalarProperty Name="IDFoto" ColumnName="IDFoto" />
+          <ScalarProperty Name="IDRescate" ColumnName="IDRescate" />
+          <ScalarProperty Name="Foto" ColumnName="Foto" />
+          <ScalarProperty Name="NombreImg" ColumnName="NombreImg" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbRescate">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbRescate">
+        <MappingFragment StoreEntitySet="tbRescate">
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="IDRescate" ColumnName="IDRescate" />
+          <ScalarProperty Name="LugarRescate" ColumnName="LugarRescate" />
+          <ScalarProperty Name="FechaRescate" ColumnName="FechaRescate" />
+          <ScalarProperty Name="EspecieAnimal" ColumnName="EspecieAnimal" />
+          <ScalarProperty Name="DescripcionAnimal" ColumnName="DescripcionAnimal" />
+          <ScalarProperty Name="NombreQuienReporta" ColumnName="NombreQuienReporta" />
+          <ScalarProperty Name="IDUsuario" ColumnName="IDUsuario" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="tbUsuario">
+      <EntityTypeMapping TypeName="SoftColitasModel.tbUsuario">
+        <MappingFragment StoreEntitySet="tbUsuario">
+          <ScalarProperty Name="IDUsuario" ColumnName="IDUsuario" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="Pass" ColumnName="Pass" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <FunctionImportMapping FunctionImportName="SP_MANT_ARCHIVO" FunctionName="SoftColitasModel.Store.SP_MANT_ARCHIVO" />
+    <FunctionImportMapping FunctionImportName="SP_CAMBIO_ESTADO" FunctionName="SoftColitasModel.Store.SP_CAMBIO_ESTADO" />
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_Result">
+          <ScalarProperty Name="CODIGOANIMAL" ColumnName="CODIGOANIMAL" />
+          <ScalarProperty Name="IMAGEN" ColumnName="IMAGEN" />
+          <ScalarProperty Name="TAMANO" ColumnName="TAMANO" />
+          <ScalarProperty Name="ESPECIE" ColumnName="ESPECIE" />
+          <ScalarProperty Name="EDADAPROX" ColumnName="EDADAPROX" />
+          <ScalarProperty Name="PESOAPROX" ColumnName="PESOAPROX" />
+          <ScalarProperty Name="COLOR" ColumnName="COLOR" />
+          <ScalarProperty Name="ESTADO" ColumnName="ESTADO" />
+          <ScalarProperty Name="FECHAINGRESO" ColumnName="FECHAINGRESO" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID_USUARIOS" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID_USUARIOS">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_USUARIOS_Result">
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID_POR_CED" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID_POR_CED">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_POR_CED_Result">
+          <ScalarProperty Name="Cedula" ColumnName="Cedula" />
+          <ScalarProperty Name="NombreCompleto" ColumnName="NombreCompleto" />
+          <ScalarProperty Name="Correo" ColumnName="Correo" />
+          <ScalarProperty Name="Username" ColumnName="Username" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID_GENERAL" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID_GENERAL">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_GENERAL_Result">
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="Especie" ColumnName="Especie" />
+          <ScalarProperty Name="EdadAprox" ColumnName="EdadAprox" />
+          <ScalarProperty Name="PesoAprox" ColumnName="PesoAprox" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Tamano" ColumnName="Tamano" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID_POR_COD" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID_POR_COD">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_POR_COD_Result">
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="Especie" ColumnName="Especie" />
+          <ScalarProperty Name="EdadAprox" ColumnName="EdadAprox" />
+          <ScalarProperty Name="PesoAprox" ColumnName="PesoAprox" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Tamano" ColumnName="Tamano" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID_POR_ESPECIE" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID_POR_ESPECIE">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_POR_ESPECIE_Result">
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="Especie" ColumnName="Especie" />
+          <ScalarProperty Name="EdadAprox" ColumnName="EdadAprox" />
+          <ScalarProperty Name="PesoAprox" ColumnName="PesoAprox" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Tamano" ColumnName="Tamano" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+    <FunctionImportMapping FunctionImportName="SP_LLENAR_GRID_POR_FECHA" FunctionName="SoftColitasModel.Store.SP_LLENAR_GRID_POR_FECHA">
+      <ResultMapping>
+        <ComplexTypeMapping TypeName="SoftColitasModel.SP_LLENAR_GRID_POR_FECHA_Result">
+          <ScalarProperty Name="CodigoAnimal" ColumnName="CodigoAnimal" />
+          <ScalarProperty Name="Especie" ColumnName="Especie" />
+          <ScalarProperty Name="EdadAprox" ColumnName="EdadAprox" />
+          <ScalarProperty Name="PesoAprox" ColumnName="PesoAprox" />
+          <ScalarProperty Name="Color" ColumnName="Color" />
+          <ScalarProperty Name="Estado" ColumnName="Estado" />
+          <ScalarProperty Name="Tamano" ColumnName="Tamano" />
+          <ScalarProperty Name="FechaIngreso" ColumnName="FechaIngreso" />
+        </ComplexTypeMapping>
+      </ResultMapping>
+    </FunctionImportMapping>
+  </EntityContainerMapping>
+</Mapping>

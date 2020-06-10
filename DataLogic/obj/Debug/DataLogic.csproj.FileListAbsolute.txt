@@ -1,0 +1,30 @@
+C:\Users\josue\Desktop\SoftColitas\DataLogic\bin\Debug\DataLogic.dll
+C:\Users\josue\Desktop\SoftColitas\DataLogic\bin\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\SoftColitas\DataLogic\obj\Debug\DataLogic.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\DataLogic\obj\Debug\DataLogic.csproj.CoreCompileInputs.cache
+C:\Users\josue\Desktop\SoftColitas\DataLogic\obj\Debug\DataLogic.dll
+C:\Users\josue\Desktop\SoftColitas\DataLogic\obj\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataLogic.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.csproj.CopyComplete
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.dll
+C:\Users\josue\Desktop\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataLogic.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataLogic.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataAccess.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataModel.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataAccess.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataAccess.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataModel.pdb
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\bin\Debug\DataModel.dll.config
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.csprojAssemblyReference.cache
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.csproj.CopyComplete
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.dll
+C:\Users\josue\Desktop\SoftColitas\Nueva version SoftColitas\SoftColitas\DataLogic\obj\Debug\DataLogic.pdb

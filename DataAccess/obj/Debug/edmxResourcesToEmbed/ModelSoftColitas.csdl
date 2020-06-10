@@ -1,0 +1,334 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="SoftColitasModel" Alias="Self" annotation:UseStrongSpatialTypes="false" xmlns:annotation="http://schemas.microsoft.com/ado/2009/02/edm/annotation" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm">
+  <EntityType Name="tbAdoptante">
+    <Key>
+      <PropertyRef Name="IDAdoptante" />
+      <PropertyRef Name="Cedula" />
+    </Key>
+    <Property Name="IDAdoptante" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Cedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NombreCompleto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Telefono" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="Direccion" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EstadoCalificacion" Type="String" MaxLength="12" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="IDUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbAnimal" Relationship="Self.FK__tbAdoptan__Codig__48CFD27E" FromRole="tbAdoptante" ToRole="tbAnimal" />
+    <NavigationProperty Name="tbUsuario" Relationship="Self.FK__tbAdoptan__IDUsu__46E78A0C" FromRole="tbAdoptante" ToRole="tbUsuario" />
+  </EntityType>
+  <EntityType Name="tbAnimal">
+    <Key>
+      <PropertyRef Name="CodigoAnimal" />
+    </Key>
+    <Property Name="CodigoAnimal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Imagen" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="Tamano" Type="String" MaxLength="8" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="EdadAprox" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="PesoAprox" Type="String" MaxLength="5" FixedLength="false" Unicode="false" />
+    <Property Name="Color" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Estado" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Descripcion" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Especie" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaIngreso" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="IDusuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbAdoptante" Relationship="Self.FK__tbAdoptan__Codig__48CFD27E" FromRole="tbAnimal" ToRole="tbAdoptante" />
+    <NavigationProperty Name="tbUsuario" Relationship="Self.FK__tbAnimal__IDusua__47DBAE45" FromRole="tbAnimal" ToRole="tbUsuario" />
+    <NavigationProperty Name="tbDonacion" Relationship="Self.FK__tbDonacio__Codig__4AB81AF0" FromRole="tbAnimal" ToRole="tbDonacion" />
+    <NavigationProperty Name="tbExpedienteAnimal" Relationship="Self.FK__tbExpedie__Codig__49C3F6B7" FromRole="tbAnimal" ToRole="tbExpedienteAnimal" />
+  </EntityType>
+  <EntityType Name="tbArchivo">
+    <Key>
+      <PropertyRef Name="IDArchivo" />
+    </Key>
+    <Property Name="IDArchivo" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="nombre" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="archivo" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+  </EntityType>
+  <EntityType Name="tbDonacion">
+    <Key>
+      <PropertyRef Name="IDDonacion" />
+    </Key>
+    <Property Name="IDDonacion" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Monto" Type="Decimal" Precision="8" Scale="2" Nullable="false" />
+    <Property Name="Fecha" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="Tipo" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" />
+    <Property Name="IDUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbAnimal" Relationship="Self.FK__tbDonacio__Codig__4AB81AF0" FromRole="tbDonacion" ToRole="tbAnimal" />
+    <NavigationProperty Name="tbUsuario" Relationship="Self.FK__tbDonacio__IDUsu__44FF419A" FromRole="tbDonacion" ToRole="tbUsuario" />
+  </EntityType>
+  <EntityType Name="tbExpedienteAnimal">
+    <Key>
+      <PropertyRef Name="IDExpediente" />
+    </Key>
+    <Property Name="IDExpediente" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="Peso" Type="String" MaxLength="5" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaAtencion" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="ProcedimientosRealizados" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Resumen" Type="String" MaxLength="1500" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Vacuna" Type="String" MaxLength="2" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="CodigoAnimal" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tbAnimal" Relationship="Self.FK__tbExpedie__Codig__49C3F6B7" FromRole="tbExpedienteAnimal" ToRole="tbAnimal" />
+  </EntityType>
+  <EntityType Name="tbFotosAnimales">
+    <Key>
+      <PropertyRef Name="IDFoto" />
+      <PropertyRef Name="IDRescate" />
+    </Key>
+    <Property Name="IDFoto" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="IDRescate" Type="Int32" Nullable="false" />
+    <Property Name="Foto" Type="Binary" MaxLength="Max" FixedLength="false" Nullable="false" />
+    <Property Name="NombreImg" Type="String" MaxLength="500" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbRescate">
+    <Key>
+      <PropertyRef Name="IDRescate" />
+    </Key>
+    <Property Name="IDRescate" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="LugarRescate" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="FechaRescate" Type="DateTime" Nullable="false" Precision="0" />
+    <Property Name="EspecieAnimal" Type="String" MaxLength="30" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="DescripcionAnimal" Type="String" MaxLength="150" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="NombreQuienReporta" Type="String" MaxLength="50" FixedLength="false" Unicode="false" />
+    <Property Name="IDUsuario" Type="Int32" Nullable="false" />
+    <NavigationProperty Name="tbUsuario" Relationship="Self.FK__tbRescate__IDUsu__45F365D3" FromRole="tbRescate" ToRole="tbUsuario" />
+    <Property Name="CodigoAnimal" Type="String" Nullable="false" MaxLength="15" FixedLength="false" Unicode="false" />
+  </EntityType>
+  <EntityType Name="tbUsuario">
+    <Key>
+      <PropertyRef Name="IDUsuario" />
+    </Key>
+    <Property Name="IDUsuario" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
+    <Property Name="NombreCompleto" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Username" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Correo" Type="String" MaxLength="100" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Cedula" Type="String" MaxLength="15" FixedLength="false" Unicode="false" Nullable="false" />
+    <Property Name="Pass" Type="String" MaxLength="20" FixedLength="false" Unicode="false" Nullable="false" />
+    <NavigationProperty Name="tbAdoptante" Relationship="Self.FK__tbAdoptan__IDUsu__46E78A0C" FromRole="tbUsuario" ToRole="tbAdoptante" />
+    <NavigationProperty Name="tbAnimal" Relationship="Self.FK__tbAnimal__IDusua__47DBAE45" FromRole="tbUsuario" ToRole="tbAnimal" />
+    <NavigationProperty Name="tbDonacion" Relationship="Self.FK__tbDonacio__IDUsu__44FF419A" FromRole="tbUsuario" ToRole="tbDonacion" />
+    <NavigationProperty Name="tbRescate" Relationship="Self.FK__tbRescate__IDUsu__45F365D3" FromRole="tbUsuario" ToRole="tbRescate" />
+  </EntityType>
+  <Association Name="FK__tbAdoptan__Codig__48CFD27E">
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="1" />
+    <End Role="tbAdoptante" Type="Self.tbAdoptante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Principal>
+      <Dependent Role="tbAdoptante">
+        <PropertyRef Name="CodigoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbAdoptan__IDUsu__46E78A0C">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbAdoptante" Type="Self.tbAdoptante" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbAdoptante">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbAnimal__IDusua__47DBAE45">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbAnimal">
+        <PropertyRef Name="IDusuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbDonacio__Codig__4AB81AF0">
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="0..1" />
+    <End Role="tbDonacion" Type="Self.tbDonacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Principal>
+      <Dependent Role="tbDonacion">
+        <PropertyRef Name="CodigoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbExpedie__Codig__49C3F6B7">
+    <End Role="tbAnimal" Type="Self.tbAnimal" Multiplicity="1" />
+    <End Role="tbExpedienteAnimal" Type="Self.tbExpedienteAnimal" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Principal>
+      <Dependent Role="tbExpedienteAnimal">
+        <PropertyRef Name="CodigoAnimal" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbDonacio__IDUsu__44FF419A">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbDonacion" Type="Self.tbDonacion" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbDonacion">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK__tbRescate__IDUsu__45F365D3">
+    <End Role="tbUsuario" Type="Self.tbUsuario" Multiplicity="1" />
+    <End Role="tbRescate" Type="Self.tbRescate" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="tbUsuario">
+        <PropertyRef Name="IDUsuario" />
+      </Principal>
+      <Dependent Role="tbRescate">
+        <PropertyRef Name="IDUsuario" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="SoftColitas" annotation:LazyLoadingEnabled="true">
+    <EntitySet Name="tbAdoptante" EntityType="Self.tbAdoptante" />
+    <EntitySet Name="tbAnimal" EntityType="Self.tbAnimal" />
+    <EntitySet Name="tbArchivo" EntityType="Self.tbArchivo" />
+    <EntitySet Name="tbDonacion" EntityType="Self.tbDonacion" />
+    <EntitySet Name="tbExpedienteAnimal" EntityType="Self.tbExpedienteAnimal" />
+    <EntitySet Name="tbFotosAnimales" EntityType="Self.tbFotosAnimales" />
+    <EntitySet Name="tbRescate" EntityType="Self.tbRescate" />
+    <EntitySet Name="tbUsuario" EntityType="Self.tbUsuario" />
+    <AssociationSet Name="FK__tbAdoptan__Codig__48CFD27E" Association="Self.FK__tbAdoptan__Codig__48CFD27E">
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+      <End Role="tbAdoptante" EntitySet="tbAdoptante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbAdoptan__IDUsu__46E78A0C" Association="Self.FK__tbAdoptan__IDUsu__46E78A0C">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbAdoptante" EntitySet="tbAdoptante" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbAnimal__IDusua__47DBAE45" Association="Self.FK__tbAnimal__IDusua__47DBAE45">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbDonacio__Codig__4AB81AF0" Association="Self.FK__tbDonacio__Codig__4AB81AF0">
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+      <End Role="tbDonacion" EntitySet="tbDonacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbExpedie__Codig__49C3F6B7" Association="Self.FK__tbExpedie__Codig__49C3F6B7">
+      <End Role="tbAnimal" EntitySet="tbAnimal" />
+      <End Role="tbExpedienteAnimal" EntitySet="tbExpedienteAnimal" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbDonacio__IDUsu__44FF419A" Association="Self.FK__tbDonacio__IDUsu__44FF419A">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbDonacion" EntitySet="tbDonacion" />
+    </AssociationSet>
+    <AssociationSet Name="FK__tbRescate__IDUsu__45F365D3" Association="Self.FK__tbRescate__IDUsu__45F365D3">
+      <End Role="tbUsuario" EntitySet="tbUsuario" />
+      <End Role="tbRescate" EntitySet="tbRescate" />
+    </AssociationSet>
+    <FunctionImport Name="SP_MANT_ARCHIVO">
+      <Parameter Name="ID" Mode="In" Type="Int32" />
+      <Parameter Name="NOMBRE" Mode="In" Type="String" />
+      <Parameter Name="ARCHIVO" Mode="In" Type="Binary" />
+    </FunctionImport>
+    <FunctionImport Name="SPLLENARGRID" ReturnType="Collection(SoftColitasModel.SPLLENARGRID_Result)" />
+    <FunctionImport Name="CAMBIO_ESTADO">
+      <Parameter Name="CODANIMAL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_CAMBIO_ESTADO">
+      <Parameter Name="CODANIMAL" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_LLENAR_GRID" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_Result)" />
+    <FunctionImport Name="SP_LLENAR_GRID_USUARIOS" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_USUARIOS_Result)" />
+    <FunctionImport Name="SP_LLENAR_GRID_POR_CED" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_POR_CED_Result)">
+      <Parameter Name="CED" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_LLENAR_GRID_GENERAL" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_GENERAL_Result)" />
+    <FunctionImport Name="SP_LLENAR_GRID_POR_COD" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_POR_COD_Result)">
+      <Parameter Name="COD" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_LLENAR_GRID_POR_ESPECIE" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_POR_ESPECIE_Result)">
+      <Parameter Name="ESPECIE" Mode="In" Type="String" />
+    </FunctionImport>
+    <FunctionImport Name="SP_LLENAR_GRID_POR_FECHA" ReturnType="Collection(SoftColitasModel.SP_LLENAR_GRID_POR_FECHA_Result)" />
+  </EntityContainer>
+  <ComplexType Name="SPLLENARGRID_Result">
+    <Property Type="String" Name="CODIGOANIMAL" Nullable="false" MaxLength="10" />
+    <Property Type="Binary" Name="IMAGEN" Nullable="false" MaxLength="Max" />
+    <Property Type="String" Name="TAMANO" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="ESPECIE" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EDADAPROX" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="PESOAPROX" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="COLOR" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ESTADO" Nullable="false" MaxLength="15" />
+    <Property Type="DateTime" Name="FECHAINGRESO" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_Result">
+    <Property Type="String" Name="CODIGOANIMAL" Nullable="false" MaxLength="10" />
+    <Property Type="Binary" Name="IMAGEN" Nullable="false" MaxLength="Max" />
+    <Property Type="String" Name="TAMANO" Nullable="false" MaxLength="8" />
+    <Property Type="String" Name="ESPECIE" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EDADAPROX" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="PESOAPROX" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="COLOR" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="ESTADO" Nullable="false" MaxLength="15" />
+    <Property Type="DateTime" Name="FECHAINGRESO" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_USUARIOS_Result">
+    <Property Type="String" Name="Cedula" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="NombreCompleto" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Correo" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_POR_CED_Result">
+    <Property Type="String" Name="Cedula" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="NombreCompleto" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Correo" Nullable="false" MaxLength="100" />
+    <Property Type="String" Name="Username" Nullable="false" MaxLength="15" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_GENERAL_Result">
+    <Property Type="String" Name="CodigoAnimal" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Especie" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EdadAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="PesoAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Color" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="Estado" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="Tamano" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="FechaIngreso" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_POR_COD_Result">
+    <Property Type="String" Name="CodigoAnimal" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Especie" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EdadAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="PesoAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Color" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="Estado" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="Tamano" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="FechaIngreso" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_POR_ESPECIE_Result">
+    <Property Type="String" Name="CodigoAnimal" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Especie" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EdadAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="PesoAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Color" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="Estado" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="Tamano" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="FechaIngreso" Nullable="false" />
+  </ComplexType>
+  <ComplexType Name="SP_LLENAR_GRID_POR_FECHA_Result">
+    <Property Type="String" Name="CodigoAnimal" Nullable="false" MaxLength="10" />
+    <Property Type="String" Name="Especie" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="EdadAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="PesoAprox" Nullable="true" MaxLength="5" />
+    <Property Type="String" Name="Color" Nullable="false" MaxLength="30" />
+    <Property Type="String" Name="Estado" Nullable="false" MaxLength="15" />
+    <Property Type="String" Name="Tamano" Nullable="false" MaxLength="8" />
+    <Property Type="DateTime" Name="FechaIngreso" Nullable="false" />
+  </ComplexType>
+</Schema>
